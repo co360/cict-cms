@@ -49,14 +49,29 @@ export default {
         of: [{type: 'string'}],
         options: {
             list: [
-              {title: 'admin', value: 'admin'},
-              {title: 'staff', value: 'staff'},
+              {title: 'Admin', value: 'admin'},
+              {title: 'Staff', value: 'staff'},
               {title: 'BSIT', value: 'it'},
               {title: 'BSIS', value: 'is'},
               {title: 'BSCS', value: 'cs'},
               {title: 'BSEMC', value: 'emc'},
               {title: 'BLIS', value: 'blis'},
               {title: 'Graduate School', value: 'gradschool'},
+            ]
+          }
+      },
+      {
+        name: 'advisory',
+        title: 'Advisory',
+        type: 'array',
+        of: [{type: 'string'}],
+        options: {
+            list: [
+              {title: 'BSIT', value: 'it'},
+              {title: 'BSIS', value: 'is'},
+              {title: 'BSCS', value: 'cs'},
+              {title: 'BSEMC', value: 'emc'},
+              {title: 'BLIS', value: 'blis'},
             ]
           }
       },

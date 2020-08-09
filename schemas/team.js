@@ -26,6 +26,12 @@ export default {
         of: [{type: 'string'}]
       },
       {
+        name: 'specialization',
+        title: 'Specialization',
+        type: 'array',
+        of: [{type: 'string'}]
+      },
+      {
         name: 'avatar',
         title: 'Avatar',
         type: 'image',
@@ -64,16 +70,7 @@ export default {
         name: 'advisory',
         title: 'Advisory',
         type: 'array',
-        of: [{type: 'string'}],
-        options: {
-            list: [
-              {title: 'BSIT', value: 'it'},
-              {title: 'BSIS', value: 'is'},
-              {title: 'BSCS', value: 'cs'},
-              {title: 'BSEMC', value: 'emc'},
-              {title: 'BLIS', value: 'blis'},
-            ]
-          }
+        of: [{type: 'string'}]
       },
     ]
   }
